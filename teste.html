@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contato__secao {
+            display: inline-block;
+            vertical-align: text-top;
+            margin-left: 16px;
+        }
+        
+        .contato__subtitulo {
+            display: inline;
+        }
+        
+        .contato__info {
+            margin: 16px 0px 24px;
+            padding-left: 32px;
+        }
+
+        .contato__secao--telefone {
+            margin-left: 32px;
+        }
+
+        .contato__info-titulo,
+        .contato__info-descricao {
+            display: inline;
+        }
+
+        .contato__info-descricao {
+            margin-left: 10px;
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+    <h2 class="titulo">Contatos</h2>
+    
+    <div class="contato__secao">
+        
+        <h3 class="contato__subtitulo">Correspondência</h3>
+        <small>(Todos os dias, das 9h às 18h)</small>
+        
+        <address class="contato__info">
+            <br>
+            AOVS Sistemas de Informática S.A
+            <br>
+            Rua Vergueiro, 3185, 8 andar
+            <br>
+            Vila Mariana
+            <br>
+            São Paulo - SP
+        </address>
+    </div>
+    
+    <div class="contato__secao contato__secao--telefone">
+        <h3 class="contato__subtitulo">Telefones</h3>
+        <small>(segunda á sexta, das 9h ás 18h)</small>
+
+        <dl>
+            
+            <div class="contato__info">
+                <dt class="contato__info-titulo">Pessoa Física:</dt>
+                <dd class="contato__info-descricao"><a href="tel://114118-3319">(11) 4118-3319</a></dd>
+            </div>
+            <div class="contato__info">
+                <dt class="contato__info-titulo">Pessoa Jurídica</dt>
+                <dd class="contato__info-descricao"><a href="tel://114118-2172">(11) 4118-2172</a></dd>
+            </div>
+        </dl>
+    </div>
+</body>
+</html>

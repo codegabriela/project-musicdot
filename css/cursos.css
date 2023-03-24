@@ -221,7 +221,7 @@
     .cursos__lista .curso--destaque2 {
         order: -1;
         grid-area: 1/4/span 2/5;
-        padding-top: 6rem ;
+        padding-top: 6rem;
         background-size: 6rem 6rem;
         background-position: top 3.6rem center;
     }
